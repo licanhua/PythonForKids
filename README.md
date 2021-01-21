@@ -17,3 +17,6 @@ Skip things like `Data Science`, `Windows Subsystem for Linux`, `Anaconda`
 
 4. Make a video to install vs code, python extension and create `Hello World` python file, then run it.
 
+## Video to install vscode, python and python extension
+
+[![SC2 Video](https://github.com/licanhua/PythonForKids/raw/main/img/PythonTutorial.jpg?raw=true)](https://www.youtube.com/watch?v=P9VmSIIO-Xc)

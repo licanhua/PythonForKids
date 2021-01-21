@@ -19,4 +19,4 @@ Skip things like `Data Science`, `Windows Subsystem for Linux`, `Anaconda`
 
 ## Video to install vscode, python and python extension
 
-[![SC2 Video](https://github.com/licanhua/PythonForKids/raw/main/img/PythonTutorial.jpg?raw=true)](https://www.youtube.com/watch?v=P9VmSIIO-Xc)
+[IDE setup](https://www.youtube.com/watch?v=P9VmSIIO-Xc)

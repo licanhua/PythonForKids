@@ -19,4 +19,4 @@ Skip things like `Data Science`, `Windows Subsystem for Linux`, `Anaconda`
 
 ## Video to install vscode, python and python extension
 
-[IDE setup](https://www.youtube.com/watch?v=P9VmSIIO-Xc)
+[IDE setup Video](https://www.youtube.com/watch?v=P9VmSIIO-Xc)

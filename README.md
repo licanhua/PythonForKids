@@ -22,7 +22,7 @@ Skip things like `Data Science`, `Windows Subsystem for Linux`, `Anaconda`
 [IDE setup Video](https://www.youtube.com/watch?v=P9VmSIIO-Xc)
 
 
-# Project: Response to `input`
+# Project 2: Response to `input`
 ## Preparation
 ```
 for i in range(1, 5):

@@ -46,3 +46,43 @@ for i in range(1, 5):
     if input is 7, print "Sunday"
     otherwise print "I don't know"
 ```
+
+# Project 3: function
+## Preparation
+In Python a function is defined using the def keyword.
+For example:
+```
+def echo(message):
+  print(message)
+
+echo("I'm happy")
+echo("I have " + str(100) + "$")
+
+def guessNumber(num):
+    print("Please guess number " + str(num))
+
+guessNumber(1)
+guessNumber(2)
+
+```
+
+In above code, `echo`, `guessNumber`, `print` and `str` are all functions.
+`print` and `str` are built-in functions
+
+## Tasks:
+1. what's built-in function? can you name some of them?
+2. what's str function?
+3. 
+```
+def classification(age):
+    # your code here
+    # if age>18 print "adult"
+    # if age<=18 and age=>12 print "teen"
+    # else print "kids or others" 
+    pass
+
+classification(5)  # expect "kids or others"
+classification(18) # expect "teen"
+classification(13)  # expect "teen"
+classification(21) # expect "adult"
+``` 

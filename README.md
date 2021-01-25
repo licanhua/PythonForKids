@@ -19,8 +19,9 @@ Skip things like `Data Science`, `Windows Subsystem for Linux`, `Anaconda`
 
 ## Video to install vscode, python and python extension
 
-[IDE setup Video](https://www.youtube.com/watch?v=P9VmSIIO-Xc)
+[IDE setup video](https://www.youtube.com/watch?v=P9VmSIIO-Xc)
 
+[My son's video](https://www.youtube.com/watch?v=_NtuZ2VwQFs)
 
 # Project 2: Response to `input`
 ## Preparation
@@ -72,7 +73,7 @@ In above code, `echo`, `guessNumber`, `print` and `str` are all functions.
 ## Tasks:
 1. what's built-in function? can you name some of them?
 2. what's str function?
-3. 
+3. implement below function
 ```
 def classification(age):
     # your code here

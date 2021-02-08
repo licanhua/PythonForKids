@@ -87,3 +87,27 @@ classification(18) # expect "teen"
 classification(13)  # expect "teen"
 classification(21) # expect "adult"
 ``` 
+
+# Project 4: Guess Number
+## Preparation
+generate random number
+
+```
+import random
+number = random.randint(1, 8)
+print(number)
+```
+
+## Tasks
+1. search randint. what's the correct answer to generate random number between 0 and 9(includes 0 and 9), randint(0, 9), or random.randint(0, 10)?
+2. generate the random number which >=0 and <9, then ask user to input a number. if the number matches with the random number, print correct. if it's less than random number, print "too small", otherwise print "too big".
+Complete below code:
+
+```
+import random
+number = random.randint(?, ?)
+for i in range(0, 10):
+    guessNumber = input()
+    ...
+
+```

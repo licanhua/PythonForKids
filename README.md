@@ -111,3 +111,50 @@ for i in range(0, 10):
     ...
 
 ```
+
+# Project 5: Find the biggest number from the dictionary, list, or tuple
+## Preparation
+
+There are two ways to check if a variable is tuple: use `type` or `isinstance`
+
+```
+test_tup = (4, 5, 6)
+if (type(test_tup) is tuple):
+    print("it's tuple")
+
+if (isinstance(test_tup, tuple)):
+    print("it's tuple too");
+```
+
+## Task
+ages: the ages of all students in a classroom. it can be list, tuple, int. For example
+
+`ages = [5,4,5,6,4]`
+or
+`ages = (5,4,5,6,4)`
+or
+`ages = 6`
+
+Your tasks:
+1. find the max number in the ages. in above, max is 6
+2. if the input is list, print `max is 6 in list of ages`.
+if the input is tuple, print `max is 6 in tuple of ages`
+if the input is int, print `type is not supported`
+
+```
+def PrintMax(ages):
+    ...
+
+```
+
+## Test cases
+```
+ages = (4,4,6,5,2)
+printMax(ages)
+
+ages = [1,2,3,4,5]
+printMax(ages)
+
+ages = 1
+printMax(ages)
+```

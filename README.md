@@ -158,3 +158,53 @@ printMax(ages)
 ages = 1
 printMax(ages)
 ```
+
+# Project 6: sell skis
+## Preparation
+
+List Methods
+
+|Method   |Description   |
+|---|---|
+|append   |Adds an element at the end of the list   |
+|remove   |Removes the item with the specified value   |
+|len(list)| returns the number of elements in the list |
+|   |   |
+
+
+```
+aList = [123, 'xyz', 'zara', 'abc', 'xyz'];
+aList.append('added item');
+print "List : ", aList
+aList.remove('xyz');
+print "List : ", aList
+aList.remove('abc');
+print "List : ", aList
+```
+
+## Task
+You are the owner of a ski store, and you sell the skis in store, also accept reservation if there is no ski available.
+
+Given you have two lists:
+```
+availableSkis = [100, 120, 125, 130]
+reservation = []
+```
+
+availableSkis means the list of skis which is available to sell. 100 and 120 means the size of the ski
+
+```
+availableSkis = [100, 120, 125, 130]
+reservation = []
+
+while (len(availableSkis) > 0)
+{
+    # use input to ask customer which size of ski he want
+    # if the size is in availableSkis, sell it to him, and remove it from availableSkis
+    # else ask his name and append it to reservation. For example, if his name is Nemo, and the size is 120, then append ['Nemo', 100] to reservation
+}
+
+print(reservation)
+```
+
+

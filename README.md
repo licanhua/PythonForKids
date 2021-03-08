@@ -207,4 +207,17 @@ while (len(availableSkis) > 0)
 print(reservation)
 ```
 
+# Project 7: Who is the winner
+[Rock, Paper, Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors) is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. A player who decides to play rock will beat another player who has chosen scissors, and paper will beat rock. 
 
+## task: print the winner
+```
+def WhoIsTheWinner()
+    player1Shape = input ("What's play1 choose(rock, paper, scissors)? ")
+    player2Shape = input ("What's play2 choose(rock, paper, scissors)? ")
+
+    # your code here
+    # if player1Shape is the same as player2Shape, print 'tied'
+    # if player1Shape beats player2Shape, print "Player1 Win"
+    # else print "Player2 win"
+````

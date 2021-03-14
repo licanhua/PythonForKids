@@ -221,3 +221,41 @@ def WhoIsTheWinner()
     # if player1Shape beats player2Shape, print "Player1 Win"
     # else print "Player2 win"
 ````
+
+# Project 8: Fruit price
+
+## Dictionary examples
+```
+# empty dictionary
+my_dict = {}
+
+# dictionary with integer keys
+my_dict = {1: 'apple', 2: 'ball'}
+
+# dictionary with mixed keys
+my_dict = {'name': 'John', 1: [2, 4, 3]}
+
+# using dict()
+my_dict = dict({1:'apple', 2:'ball'})
+
+# from sequence having each item as a pair
+my_dict = dict([(1,'apple'), (2,'ball')])
+```
+
+## Tasks:
+1. what's dictionary and when you can use it?
+2. Complete below code: read 5 fruit name and fruit prices, save it, then query any fruit prices. 
+
+```
+fruitDictionary = dict();
+
+for i in range(0, 5):
+    name = input("what's the name of the fruit? ")
+    price = input("what's the price for it? ")
+    # your code and save data to fruitDictionary
+
+for i in range(0, 5):
+   name = input("what fruit do you want to know the price? ") 
+    # if the fruit is in fruitDictionary, print the fruit fruit name and price. For example: "Banana $10"
+    # else print price unknown for the fruit. For example: "Banana Price Unknown"
+```

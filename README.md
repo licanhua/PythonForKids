@@ -259,3 +259,31 @@ for i in range(0, 5):
     # if the fruit is in fruitDictionary, print the fruit fruit name and price. For example: "Banana $10"
     # else print price unknown for the fruit. For example: "Banana Price Unknown"
 ```
+
+# Project 9: Dice rolling
+There are two players, and they roll the dice in turn.
+When the player rolls the dice, the program will generate a random number between 1 and 6 for him.
+if the dice number for player1 == player2, then print 'tie',
+otherwise print the winner who has big dice number.
+
+## Preparation
+1. Use randint to generate the dice number
+2. How to wait for player to press [enter key](https://stackoverflow.com/questions/983354/how-to-make-a-script-wait-for-a-pressed-key)
+
+## Pseudocode
+```
+    for i in range (0, 5):
+        program prints "It's player 1's turn, please any key to continue"
+        Player 1 presses enter key
+        program prints "It's player 2's turn, please any key to continue" 
+        Player 2 presses enter key
+        program generate dice number for player1
+        program generate dice number for player2
+        programe print "player 1 dice number is 5".
+        programe print "player 2 dice number is 2"
+        programe print "the winner is: player 1" 
+```
+    You should replace dice number 5 and 2 with the actually generated number, and the winner should be the result after compare the two dice numbers.
+
+ ## Task
+    Convert the Pseudocode to python code.

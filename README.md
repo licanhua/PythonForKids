@@ -287,3 +287,27 @@ otherwise print the winner who has big dice number.
 
  ## Task
     Convert the Pseudocode to python code.
+
+
+# Project 10: Reverse the input 
+##
+Read 10 strings, then print them in reversed the order
+For example, below user reads 5 strings:
+```
+This is good
+My name is Nemo
+He is always budy
+Nemo plays game
+Nemo likes pokeman
+Who is pokeman
+```
+
+and the expected output:
+```
+Who is pokeman
+Nemo likes pokeman
+Nemo plays game
+He is always budy
+My name is Nemo
+This is good
+```

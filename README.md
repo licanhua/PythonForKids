@@ -315,3 +315,54 @@ This is good
 # Project 11: get live weather
 ## Follow [get-live-weather-desktop-notifications-using-python](https://www.geeksforgeeks.org/get-live-weather-desktop-notifications-using-python/).
 Can you use link `https://weather.com/en-IN/weather/today/l/25.59,85.14?par=google&temp=f` to update the notification text?
+
+# Project 12: Pattern print
+read a number n, then print the pattern.
+
+
+n=2
+```
+1
+21
+```
+
+n=4
+```
+1
+21
+321
+4321
+```
+
+n=5
+```
+1
+21
+321
+4321
+54321
+```
+
+# Project 13: Json
+
+1. read 
+https://www.programiz.com/python-programming/json
+2. parse person as json to person_dict
+```
+person = '{"name": "Bob", "languages": ["English", "Fench"]}'
+```
+3. modify the name "Bob" to "nemo", for example
+```
+person_dict["name"] = "nemo"
+```
+4. print person_dict to verify the name change
+5. remove 'French' from languages because nemo doesn't speak French.
+```
+>>> a = ["A", "B"]
+>>> a.remove("B")
+>>> a
+['A']
+>>>
+```
+6. save person_dict to a file "person.json"
+7. open the person.json from file explorer.

@@ -368,7 +368,7 @@ person_dict["name"] = "nemo"
 7. open the person.json from file explorer.
 
 
-# Project 14:
+# Project 14: Count occurrence of substring in a given string
 1. Put below text into a file `jinglebells.txt`
 2. Read the file, then count how many 'bells' and 'sleigh' occurred in the file.
 3. print the count:

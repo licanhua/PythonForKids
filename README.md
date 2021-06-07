@@ -376,6 +376,7 @@ person_dict["name"] = "nemo"
 bells: 5
 sleign: 4
 ```
+4. find the occurrence of "bells" in the first 10 lines of text, and print it out.
 
 Text:
 ```

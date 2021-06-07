@@ -366,3 +366,34 @@ person_dict["name"] = "nemo"
 ```
 6. save person_dict to a file "person.json"
 7. open the person.json from file explorer.
+
+
+# Project 14:
+1. Put below text into a file `jinglebells.txt`
+2. Read the file, then count how many 'bells' and 'sleigh' occurred in the file.
+3. print the count:
+```
+bells: 5
+sleign: 4
+```
+
+Text:
+```
+Dashing through the snow
+In a one-horse open sleigh
+O’er the fields we go
+Laughing all the way
+Bells on bob tails ring
+Making spirits bright
+What fun it is to laugh and sing
+A sleighing song tonight
+
+Oh, jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh
+```

@@ -398,3 +398,36 @@ Jingle all the way
 Oh, what fun it is to ride
 In a one-horse open sleigh
 ```
+
+# Project 14: slice string
+
+If S is a string, the expression S[start: stop: step] returns the portion of the string from index start to index stop, at a step size step.
+https://www.learnbyexample.org/python-string-slicing/
+
+```
+>>> s="example"
+>>> s[0:2]
+'ex'
+>>> s[2:]
+'ample'
+```
+
+After you slice the string, you can concat the slices into a new string
+```
+>>> s[2:] + " " + s[0:2]
+'ample ex'
+```
+
+## Task
+Read a string. then rotate/shift left the string 5 times. then rotate rule is like this:
+1st rotation: `ABC` -> split it into `A` and `BC`, -> combine slices as `BCA`
+2nd rotation: `BCA` -> split it into `B` and `CA`, -> Combine slices as `CAB`
+...
+
+rotation example: 
+    'abc':  abc -> bca -> cab -> abc -> bca
+    '12345':  12345->23451->34512 -> 45123 ->51234
+  
+Your job is print the string after 5 rotations.
+Input: abc, Output: bca
+Input: 12345, Output: 51234
